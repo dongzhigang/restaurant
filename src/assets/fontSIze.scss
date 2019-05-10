@@ -1,0 +1,49 @@
+@function px($px){
+
+}
+$px:100px;
+$fl:left;
+$fr:right;
+body{
+	max-width: 750px;
+	width:100%;
+	min-width:320px;
+	font-family:SourceHanSansCN-Medium;
+
+}
+ul{
+	list-style: none;
+}
+input{
+	 outline: none;
+    -webkit-appearance: none; 
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,textarea{
+	outline:none;
+	border: none;
+	background: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+img{
+	width:100%;
+}
+.fl{
+	float:$fl;
+}
+.fr{
+	float:$fr;
+}
+.text_center{
+	text-align: center;
+}
+.text_left{
+	text-align: left;
+}
+.text_right{
+	text-align: right;
+}
